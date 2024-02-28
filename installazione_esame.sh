@@ -11,7 +11,7 @@ cp python_esame_Papini.py  dir_esame/
 
 # attribuire i permessi d'esecuzione corretti
 
-chmod a+x installation_esame.sh
+chmod a+x installazione_esame.sh
 chmod a+rx download_dati.sh
 chmod a+rx python_esame_Papini.py
 
