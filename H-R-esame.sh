@@ -9,7 +9,7 @@ if [ $? -eq 0 ]
 fi
 ls -l Nemo_6670.dat
 
-export DATA_FILE_PATH='pwd'/Nemo_6670.dat
+export DATA_FILE_PATH='pwd'//Nemo_6670.dat
 echo $DATA_FILE_PATH
 
 
