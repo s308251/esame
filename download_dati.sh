@@ -14,4 +14,4 @@ echo $DATA_FILE_PATH
 
 
 
-python3 Python_esame_Papini.py "$DATA_FILE_PATH"
+python3 python_esame_Papini.py "$DATA_FILE_PATH"
