@@ -1,15 +1,14 @@
 #Importazione librerie Python
 import numpy as np
 import matplotlib.pyplot as plt
-import sys
+import matplotlib.pyplot as plt
+import os
 import math
 
 #acquisizione dati e organizzazione dati
 
-data_filename="/home/s308251@DS.UNITS.IT/Desktop/storage/s308251/Informatiche_e_telematiche/settimana_10/Nemo_6670.dat"
-#download_dati=input('pwd'/dir_esame/DATA_FILE_PATH)
-#/home/s308251@DS.UNITS.IT/Desktop/'/s308251/Informatiche_e_telematiche/esame/Nemo_6670.dat'
-data=np.loadtxt(data_filename, delimiter=' ',usecols=(0,1,4,8,12),unpack=True)
+data_python_esame_Papini=os.environ.get("DATA_FILE_PATH")
+data=np.loadtxt(data_python_esame_Papini, delimiter=' ',usecols=(0,1,4,8,12),unpack=True)
 MsuH=data[0] #metallicità 
 m_ini=data[1] #massa iniziale
 M_ass=data[2] #magnitudine assoluta
