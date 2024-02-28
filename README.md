@@ -1,2 +1,2 @@
 # esame
-Nel repositorio troviamo lo script 'installation_esame.sh' che crea la directory dir_esame in cui sono salvati 
+Nella repository sono stati caricati lo script 'installation_esame.sh' che crea la directory 'dir_esame'. Nella directory vengono salvati lo script 'python_esame_Papini.py' e lo script  'download_dati.sh' , che scarica i dati dalla repository github in cui sono salvati e lancia lo script 'python_esame_Papini.py' per analizzare i dati forniti. Nel file python i dati di una serie di stelle vengono passati come parametro allo script e vengono restituiti tre grafici: "Lumino
