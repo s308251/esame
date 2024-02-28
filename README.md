@@ -1,5 +1,5 @@
 # esame
 Nella repository sono stati caricati lo script 'installazione_esame.sh' che crea la directory 'dir_esame'. Nella directory vengono salvati lo script 'python_esame_Papini.py' e lo script  'download_dati.sh' , che scarica i dati, riguardo proprietà di un gruppo di stelle, dalla repository github in cui sono salvati e lancia lo script 'python_esame_Papini.py' per analizzare i dati forniti. Nel file python i dati vengono elaborati per restituire tre grafici: 'Magnitudine assoluta in funzione della temperatura' con i dati suddivisi in diversi gruppi di età, indicati in legenda, l'istogramma che analizza la 'metallicità delle stelle' a tre diverse fasce di età e il grafico che mostra il legame tra metallicità e massa iniziale delle stelle per le tre classi di età precedentemente studiate.
 E' necessario scaricare i tre file nella stessa cartella, aprire il terminale da quella sede e lanciare lo scrpt di installazione con il comando: ' bash installazione_esame.sh'
-Il programma permette di visualizzare il primo dei trei grafici, ssenza ulteriori passaggi, mentre solo chiudendo la finestra proposta verrà mostrato il grafico seguente.
+Il programma permette di visualizzare il primo dei trei grafici, senza ulteriori passaggi, mentre solo chiudendo la finestra proposta verrà mostrato il grafico seguente.
 
